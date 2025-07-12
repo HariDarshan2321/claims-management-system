@@ -342,21 +342,3 @@ The system is designed for cloud-native deployment on:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Support
-
-For questions or support regarding this engineering challenge submission:
-
-- **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn]
-- **GitHub**: [Your GitHub]
-
----
-
-**Built with ❤️ for Agent-F Engineering Challenge**
-
-*This solution demonstrates a comprehensive approach to AI-driven claims management, balancing automation with human oversight, financial controls with operational efficiency, and technical innovation with practical implementation.*
