@@ -1,0 +1,33 @@
+Subject: Clarification on AI Integration Scope - Claims Management System Challenge
+
+To: Felix Schläger <Felix@agent-f.com>
+
+Dear Felix,
+
+I hope this email finds you well. Thank you for the opportunity to work on this exciting Claims Management System engineering challenge - it's been a fantastic experience diving into AI-driven ERP architecture.
+
+I'm currently finalizing my solution and want to ensure I deliver exactly what Agent-F is looking for.
+
+I have a quick clarification question regarding the scope of AI integration expected in the solution:
+
+Question: When the challenge asks to "Design, at an architectural level, a Claims Management System" with "AI-driven multi-agent system," what level of AI implementation are you expecting?
+
+Option A: Architectural design with:
+- System diagrams showing AI agent components
+- Technology stack choices (e.g., OpenAI GPT-4V, LangChain)
+- Data flows and integration patterns
+- Simulated AI logic demonstrating the concepts
+
+Option B: Functional prototype with:
+- Working AI API integrations (OpenAI, etc.)
+- Real AI models processing actual data
+- Live API key configuration and service calls
+
+I've prepared a comprehensive architectural solution with working prototypes, but I want to ensure the AI integration depth matches your expectations before finalizing my submission.
+
+Context: I have the complete technical architecture, BPMN workflows, component diagrams, and a functional demo ready. I just want to confirm whether you'd like to see actual AI service integration or if the architectural design with simulated AI logic is sufficient for this challenge.
+
+Thank you again for this opportunity and for your time in providing guidance.
+
+Best regards,
+[Your Name]
