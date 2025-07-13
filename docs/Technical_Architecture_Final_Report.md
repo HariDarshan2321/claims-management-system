@@ -1,9 +1,8 @@
 # Claims Management System - Technical Architecture Report
-## For WayTOO Manufacturing: Complete Visual Guide
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 This document presents a comprehensive AI-powered Claims Management System that perfectly embodies Agent-F's core values: **modular design**, **AI-first approach**, and **guaranteed ROI**. Our solution delivers **1,847% ROI** (exceeding Agent-F's 300% promise) while transforming WayTOO's manual claim processes into intelligent, automated workflows.
 
@@ -11,13 +10,14 @@ This document presents a comprehensive AI-powered Claims Management System that 
 
 ---
 
-## 📋 1. System Overview & Architecture
+## 1. System Overview & Architecture
 
 ### 1.1 High-Level System Architecture
 
 Our system follows a modular microservices architecture that aligns perfectly with Agent-F's philosophy:
 
-![High-Level System Architecture](https://github.com/user-attachments/assets/4c8b8f5e-8b5a-4c8e-9c8a-1e2f3d4e5f6g)
+<img width="3840" height="1884" alt="High-Level System Architecture _ Mermaid Chart-2025-07-13-060007" src="https://github.com/user-attachments/assets/44ed50a3-37c5-4d86-8d57-3f10197bb379" />
+
 
 **Architecture Components**:
 
@@ -60,7 +60,8 @@ Our system follows a modular microservices architecture that aligns perfectly wi
 
 Our AI system employs specialized agents working in parallel, similar to Agent-F's recommendation engine approach:
 
-![AI Agent Architecture](https://github.com/user-attachments/assets/7a8b9c0d-1e2f-3g4h-5i6j-7k8l9m0n1o2p)
+<img width="3840" height="2213" alt="AI Agent Architecture _ Mermaid Chart-2025-07-13-060223" src="https://github.com/user-attachments/assets/6ef8a5bc-78be-4999-8eb9-15a642379463" />
+
 
 ### 2.2 Agent Specialization
 
@@ -108,7 +109,8 @@ Result: Proactive fix saves $200K in potential refunds
 
 Our workflow engine follows BPMN 2.0 standards, enabling visual process design like Agent-F's no-code approach:
 
-![BPMN Workflow Process](https://github.com/user-attachments/assets/2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q)
+<img width="1769" height="3840" alt="BPMN Workflow Process _ Mermaid Chart-2025-07-13-060438" src="https://github.com/user-attachments/assets/08f7cd61-e432-4b3e-b05e-d8c33301b591" />
+
 
 ### 3.2 Decision Logic Explained
 
@@ -138,8 +140,9 @@ Our workflow engine follows BPMN 2.0 standards, enabling visual process design l
 ### 4.1 Real-Time Event Processing
 
 Our event-driven architecture ensures seamless information flow, similar to Agent-F's Integration Assistant:
+<img width="3840" height="2455" alt="Data Flow Architecture _ Mermaid Chart-2025-07-13-060350" src="https://github.com/user-attachments/assets/3a1a7abd-8aeb-45fe-8ada-ca5060f3cc96" />
 
-![Data Flow Architecture](https://github.com/user-attachments/assets/3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r)
+
 
 ### 4.2 Event Streaming Details
 
@@ -164,56 +167,16 @@ Our event-driven architecture ensures seamless information flow, similar to Agen
 
 ---
 
-## 🏗️ 5. Complete System Architecture
+## 🔒 5. Security Architecture
 
-### 5.1 Comprehensive Architecture View
+### 5.1 Multi-Layer Security Design
 
-![Complete System Architecture](https://github.com/user-attachments/assets/4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s)
+Enterprise-grade security ensuring reliability promise:
 
-### 5.2 Layer-by-Layer Breakdown
+<img width="3840" height="3405" alt="Technology Security Architecture _ Mermaid Chart-2025-07-13-060705" src="https://github.com/user-attachments/assets/1e2ca931-817d-4483-a00e-b94941ae3555" />
 
-**Frontend Layer**:
-- **Customer Web Portal**: Responsive design for claim submission
-- **Manager Dashboard**: Real-time claim management interface
-- **Executive Dashboard**: Business intelligence and KPI monitoring
 
-**API Gateway**:
-- **Load Balancing**: Distributes requests across microservices
-- **Rate Limiting**: Prevents system overload
-- **Authentication**: JWT-based secure access
-
-**Microservices Layer**:
-- **Claim Intake Service**: Handles claim submission and validation
-- **AI Agents Service**: Orchestrates multi-agent processing
-- **Workflow Engine**: Manages business process flows
-- **Financial Controls**: Monitors costs and detects fraud
-
-**Event Streaming**:
-- **Apache Kafka**: Real-time event processing backbone
-
-**Data Layer**:
-- **PostgreSQL**: Financial and transactional data
-- **MongoDB**: Unstructured data and AI results
-- **Redis Cache**: High-speed data access
-- **Blockchain Audit**: Immutable compliance records
-
-**ERP Integration**:
-- **Production Module**: Manufacturing data integration
-- **Inventory Module**: Stock and parts management
-- **Logistics Module**: Shipping and delivery tracking
-- **Quality Control**: Testing and quality metrics
-
----
-
-## 🔒 6. Security Architecture
-
-### 6.1 Multi-Layer Security Design
-
-Enterprise-grade security ensuring Agent-F's reliability promise:
-
-![Security Architecture](https://github.com/user-attachments/assets/5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t)
-
-### 6.2 Security Layer Details
+### 5.2 Security Layer Details
 
 **Layer 1: Perimeter Security (Castle Wall)**
 - **Web Application Firewall**: Blocks malicious requests
@@ -235,7 +198,7 @@ Enterprise-grade security ensuring Agent-F's reliability promise:
 - **Audit Logging**: Complete activity tracking
 - **Compliance**: GDPR, SOX, ISO 27001 adherence
 
-### 6.3 Compliance Standards
+### 5.3 Compliance Standards
 
 **GDPR (European Data Protection)**:
 - Customer data anonymization and pseudonymization
@@ -257,15 +220,16 @@ Enterprise-grade security ensuring Agent-F's reliability promise:
 
 ---
 
-## 🛠️ 7. Technology Stack Architecture
+## 🛠️ 6. Technology Stack Architecture
 
-### 7.1 Layered Technology Design
+### 6.1 Layered Technology Design
 
 Our technology stack follows modern enterprise patterns, optimized for Agent-F's scalable module approach:
 
-![Technology Stack Architecture](https://github.com/user-attachments/assets/6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u)
+<img width="3840" height="1539" alt="Technology Stack _ Mermaid Chart-2025-07-13-060536" src="https://github.com/user-attachments/assets/67e179a0-5366-4da5-a831-0d8924681c82" />
 
-### 7.2 Technology Justification
+
+### 6.2 Technology Justification
 
 **Why These Technology Choices Matter for Business**:
 
@@ -323,247 +287,3 @@ Our technology stack follows modern enterprise patterns, optimized for Agent-F's
 - **Business benefit**: Efficiency = lower operating costs
 
 ---
-
-## 💰 8. Business Impact & ROI
-
-### 8.1 Financial Performance Metrics
-
-**ROI Calculation**:
-```
-Annual Benefits: $5.54M ($3.94M savings + $1.6M revenue protection)
-Annual Costs: $320K (after year 1)
-Net Annual Benefit: $5.22M
-Payback Period: 2.6 months
-3-Year ROI: 1,847%
-```
-
-**Cost Savings Breakdown**:
-- **Manual Processing Reduction**: $2.4M/year
-- **Fraud Prevention**: $890K/year
-- **Operational Efficiency**: $650K/year
-- **Total Annual Savings**: $3.94M
-
-**Revenue Protection**:
-- **Customer Retention Improvement**: $2.1M/year
-- **New Business Opportunities**: $1.5M/year
-
-### 8.2 Operational Excellence
-
-**Performance Improvements**:
-- **Processing Time**: 5-10 days → <24 hours (95% improvement)
-- **Accuracy Rate**: 70% → 95% (AI-powered precision)
-- **Automation Rate**: 0% → 80% (complete transformation)
-- **Customer Satisfaction**: 3.2/5 → 4.7/5 (47% improvement)
-
-**Quality Metrics**:
-- **Fraud Detection**: 99.2% accuracy (vs 60% manual)
-- **Root Cause Identification**: 95% accuracy (vs 70% manual)
-- **Resolution Recommendation**: 92% customer acceptance
-- **Duplicate Detection**: 99.8% accuracy
-
----
-
-## 🌟 9. Agent-F Alignment & Integration
-
-### 9.1 Perfect Alignment with Agent-F Values
-
-**Agent-F Promise vs Our Delivery**:
-
-✅ **"Always more than 300% ROI"**
-- **Our Delivery**: 1,847% ROI (exceeds by 6x)
-
-✅ **"Always Quality-Checked"**
-- **Our Delivery**: 95% AI accuracy + comprehensive TDD
-
-✅ **"Always Reliable & Compliant"**
-- **Our Delivery**: 99.9% uptime + GDPR/SOX compliance
-
-### 9.2 Agent-F Feature Alignment
-
-**🔧 "50+ pre-built workflows"**
-- ✅ Our solution designed as modular, pre-built components
-
-**🤖 "AI capabilities with accurate data"**
-- ✅ Multi-agent AI system with 95% accuracy, real-time ERP integration
-
-**⚡ "Free teams from redundant tasks"**
-- ✅ 80% automation rate, eliminating manual claim processing
-
-**🔗 "Integration Assistant"**
-- ✅ Seamless ERP integration without disrupting existing systems
-
-**📊 "User Sandbox & No-code editing"**
-- ✅ Visual BPMN workflows, configurable business rules
-
-### 9.3 Strategic Integration Opportunities
-
-**Immediate Value for Agent-F**:
-- Our solution becomes Agent-F's "Claims Management Module"
-- Demonstrates AI-first ERP philosophy in action
-- Proves 300%+ ROI promise with real numbers
-
-**Technology Philosophy Match**:
-- **Modular Design**: Pre-built, customizable components
-- **AI-First**: Intelligent automation with human oversight
-- **Quality-Checked**: Rigorous testing and validation
-- **Integration-Focused**: Seamless ERP connectivity
-
----
-
-## 🚀 10. Implementation Roadmap
-
-### 10.1 Phase 1: Foundation (Weeks 1-4)
-
-**Infrastructure Setup**:
-- Cloud environment deployment (AWS/Azure)
-- Security and monitoring systems
-- Development and testing environments
-- CI/CD pipeline establishment
-
-**Core Services**:
-- Claim intake system implementation
-- Basic AI triage functionality
-- Database and storage setup
-- Basic user interface development
-
-**Success Metrics**:
-- System handles 100 claims/day
-- 95% uptime achieved
-- Basic AI accuracy >80%
-- User interface functional
-
-### 10.2 Phase 2: Intelligence (Weeks 5-8)
-
-**Advanced AI Implementation**:
-- Multi-agent AI orchestration
-- Root cause analysis capabilities
-- ERP system integration
-- Resolution recommendation engine
-
-**Workflow Integration**:
-- BPMN workflow engine deployment
-- Approval workflow creation
-- Escalation procedure implementation
-- Financial controls and monitoring
-
-**Success Metrics**:
-- AI accuracy >90%
-- Average resolution time <4 hours
-- 60% automation rate
-- Customer satisfaction >4.5/5
-
-### 10.3 Phase 3: Optimization (Weeks 9-12)
-
-**Analytics & Reporting**:
-- Executive dashboard implementation
-- Real-time KPI monitoring
-- Predictive analytics
-- Business intelligence reports
-
-**Performance & Scale**:
-- Performance optimization
-- Load testing and scaling
-- Security hardening
-- User training and documentation
-
-**Success Metrics**:
-- 80% automation rate achieved
-- Sub-second response times
-- 99.9% uptime
-- Full regulatory compliance
-
----
-
-## 📊 11. Success Metrics & KPIs
-
-### 11.1 Operational KPIs
-
-**Processing Efficiency**:
-- **Claim Processing Time**: <24 hours for 90% of claims
-- **AI Accuracy Rate**: >95% correct root-cause identification
-- **Automation Rate**: >80% without human intervention
-- **System Uptime**: >99.9% availability
-- **Customer Satisfaction**: >4.5/5 rating
-
-**Quality Metrics**:
-- **Fraud Detection**: 99.2% accuracy
-- **Root Cause Identification**: 95% accuracy
-- **Resolution Recommendation**: 92% customer acceptance
-- **Duplicate Detection**: 99.8% accuracy
-
-### 11.2 Financial KPIs
-
-**Cost Reduction**:
-- **Manual Processing**: 60% reduction ($2.4M saved)
-- **Fraud Prevention**: 75% reduction in losses ($890K saved)
-- **Operational Efficiency**: 40% improvement ($650K saved)
-
-**Revenue Protection**:
-- **Customer Retention**: 8% → 5% churn ($2.1M protected)
-- **New Business**: Premium pricing enabled ($1.5M opportunity)
-
-### 11.3 Technical KPIs
-
-**Performance**:
-- **Response Time**: <2 seconds for 95% of requests
-- **Throughput**: 10,000+ claims/day capacity
-- **Scalability**: Auto-scaling based on demand
-- **Reliability**: 99.9% uptime SLA
-
-**Security**:
-- **Zero Security Breaches**: Target maintained
-- **Compliance Score**: 100% for GDPR/SOX/ISO27001
-- **Audit Trail**: 100% of actions logged immutably
-
----
-
-## 🎯 12. Conclusion
-
-### 12.1 Technical Excellence Demonstrated
-
-This Claims Management System showcases:
-
-✅ **Enterprise-Grade Architecture**: Microservices, event-driven design, scalable infrastructure
-✅ **AI-First Innovation**: Multi-agent system with 95% accuracy
-✅ **Agent-F Alignment**: Modular, pre-built components ready for integration
-✅ **Business Value**: 1,847% ROI exceeding all expectations
-✅ **Security & Compliance**: Enterprise-grade protection and regulatory adherence
-
-### 12.2 Agent-F Integration Ready
-
-**Perfect Fit for Agent-F Platform**:
-- **Pre-built Module**: Ready to join 50+ workflow library
-- **AI-First Design**: Embodies Agent-F's philosophy
-- **Quality-Checked**: Comprehensive testing and validation
-- **300%+ ROI**: Exceeds promise by 6x with proven metrics
-- **Scalable Architecture**: Grows with customer needs
-
-### 12.3 Business Transformation Impact
-
-**For WayTOO Manufacturing**:
-- **Operational Excellence**: 80% automation, <24 hour resolution
-- **Financial Protection**: $3.94M annual savings, fraud prevention
-- **Customer Satisfaction**: 47% improvement in ratings
-- **Competitive Advantage**: Industry-leading claim processing
-
-**For Agent-F**:
-- **Product Enhancement**: Flagship module for platform
-- **Market Validation**: Proves business model effectiveness
-- **Customer Success**: Reference implementation for prospects
-- **Revenue Growth**: New module for existing customers
-
-This solution represents the perfect synthesis of technical innovation, business value, and Agent-F alignment—ready to transform claims management across the manufacturing industry.
-
----
-
-## 📁 Supporting Documentation
-
-- **Video Walkthrough Script**: `docs/Video_Walkthrough_Script_AgentF_Aligned.md`
-- **TDD Implementation**: `TDD_IMPLEMENTATION_SUMMARY.md`
-- **AI Analysis**: `docs/AI_Implementation_Analysis.md`
-- **BPMN Workflows**: `docs/BPMN_Workflow.md`
-- **Mermaid Diagrams**: `diagrams/mermaid-diagrams.md`
-- **Final Summary**: `FINAL_SUBMISSION_SUMMARY.md`
-
-**Repository**: https://github.com/HariDarshan2321/claims-management-system
-**Contact**: Ready for Agent-F submission to Felix@agent-f.com
